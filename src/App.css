@@ -1,0 +1,36 @@
+.crypto-display{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-header{
+   text-align: center;   
+}
+
+.input-style{
+  padding: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  width: 30%;
+  border: 3px solid red;
+  border-radius:5px ;
+  color: aliceblue;
+  outline: none;
+}
+
+input::placeholder{
+  color: aliceblue;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+p{
+  text-align: center;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
