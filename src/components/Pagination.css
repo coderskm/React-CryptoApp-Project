@@ -1,0 +1,24 @@
+.span-style > span{
+    padding: 15px 20px;
+    border:2px solid aliceblue;
+    border-radius:50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.pagination-selected{
+    background-color: aliceblue;
+    color: black;
+}
+
+.span-button{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .span-style>span
+    {
+        padding: 5px;
+        margin: 2.5px;
+    }
+}

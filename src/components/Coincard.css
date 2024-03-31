@@ -4,6 +4,7 @@
     padding: 20px;
     width: 20%;
     border-radius: 10px;
+    overflow: auto;
 }
 
 .icon-style{
@@ -27,4 +28,11 @@ h1{
 
 h3{
     font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .coincard{
+        width: 90%;
+        margin:10px auto;
+    }
 }
